@@ -1,11 +1,11 @@
-#include <OGL3D/Game/OGame.h>
+#include "MyGame.h"
 #include <iostream>
 using namespace std;
 
 int main() {
 
 	try {
-		OGame game;
+		MyGame game;
 		game.run();
 	}
 	catch (const exception& e) {
